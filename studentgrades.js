@@ -1,6 +1,8 @@
+const prompt = require('prompt-sync')();
+
 function gradeGenerator() {
   // Prompt the user for their marks
-  let marks = prompt("Enter your marks (0 to 100):");
+  let marks = prompt("Enter your marks (0 to 100): ");
 
   // Convert marks to a number
   marks = Number(marks);
